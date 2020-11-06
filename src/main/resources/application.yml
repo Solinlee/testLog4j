@@ -2,3 +2,5 @@ server:
   port: 9999
   servlet:
     context-path: /testLog4j2
+logging:
+  config: classpath:log4j2.xml
